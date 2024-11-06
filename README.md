@@ -1,83 +1,42 @@
-# OCTA Landing
+# Octa Landing
 
-## Getting Started
+This is a landing page application that integrates various dynamic UI components, smooth scrolling, and image preloading. The app uses several libraries like `framer-motion`, `@uidotdev/usehooks`, `ReactLenis`, and custom hooks for handling user interactions like mouse movement, scrolling, and window resizing.
 
-### How to change the text?
+## Features
 
-All text content located in the `src/text.config.json` file.
+- **Smooth Scrolling**: The app uses `ReactLenis` for smooth scroll experiences.
+- **Parallax Effects**: Images and UI elements move differently based on scroll and mouse position.
+- **Image Preloading**: Images are preloaded for smooth visual transitions.
+- **Responsive Layout**: The layout adapts based on screen size, with specific styling for mobile and desktop views.
+- **Mint Page Modal**: A modal can be opened for minting functionality with smooth transitions and animations.
 
-In order to change the text, you need to:
+## Tech Stack
 
-1. Locate the text you'd like to change in the file.
-2. Replace the text with the new one.
+- **React**: For building the UI components.
+- **Framer Motion**: For animations and transitions.
+- **Tailwind CSS**: For utility-first CSS styling.
+- **ReactLenis**: For smooth scrolling functionality.
+- **TypeScript**: For type safety and better development experience.
+- **@uidotdev/usehooks**: Custom hooks for handling window size.
+- **Custom Hooks**: For text handling, image preloading, etc.
 
-    <details>
-      <summary>Additional info</summary>
+## Installation
 
-      - In order to change headings of the "Bento" component, you need to change keys.
+1. Clone the repository:
 
-          For example, change "COD" -> "COD Example"
+   ```bash
+   git clone https://github.com/your-repository/landing-page-app.git
+   cd landing-page-app
+   ```
 
-          **Before:**
+2. Install the dependencies:
 
-          ```json
-            {
-              "bentoBox": {
-                "content": {
-                  "COD": "Lorem ipsum",
-                }
-              }
-            }
-          ```
+   ```bash
+   npm install
+   ```
 
-          **After:**
+3. Run the development server:
 
-          ```json
-            {
-              "bentoBox": {
-                "content": {
-                  "COD Example": "Lorem ipsum",
-                }
-              }
-            }
-          ```
-
-    </details>
-3. Commit the changes.
-
-### How to change the images?
-
-In order to change image, you need to:
-
-1. Locate the image in the proper `assets` folder.
-
-    <details>
-      <summary>Common locations:</summary>
-
-      - Images for the stickers on the main page are located in `src/screens/LandingView/components/LandingHero/assets/` folder.<br>
-
-      - Images for the "Phone" component are located in `src/screens/LandingView/assets/` folder.
-
-      - Images for the "Bento" component are located in `src/screens/LandingView/components/LandingBentoBox/assets/` folder.
-
-      - Images for the "Mint" page are located in `src/screens/LandingView/components/LandingFeatures/assets/` folder.
-    </details>
-
-2. Replace the image with the new one.
-
-    > [!WARNING]
-    > Name, extension and aspect ratio of the new image must be the same as the old one.
-
-3. Commit the changes.
-
-### How to change the colors?
-
-All colors located in three files:
-
-- `tailwind.config.js` general color scheme and colors for "Bento" component.
-- `src/index.css` default colors, which need to be accessed from the JS code.
-- `text.config.json` text and background colors for the "Phone" component.
-
-1. Locate the color you'd like to change in one of the files above.
-2. Replace the color with the new one.
-3. Commit the changes.
+   ```bash
+   npm start
+   ```
