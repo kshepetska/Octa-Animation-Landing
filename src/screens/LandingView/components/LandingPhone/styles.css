@@ -1,0 +1,57 @@
+.phone-mockup-shadow {
+	position: absolute;
+	height: 98%;
+	border-radius: 6rem;
+	aspect-ratio: 0.49/1;
+	box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, .024), 0 0 rgba(0, 0, 0, .03), 0 0 0.1px rgba(0, 0, 0, .035), 0 0 0.2px rgba(0, 0, 0, .035), 0 1px 0.4px rgba(0, 0, 0, .04), 0 2px 0.7px rgba(0, 0, 0, .04), 0 3px 1.1px rgba(0, 0, 0, .043), 0 5px 1.9px rgba(0, 0, 0, .043), 0 8px 2.9px rgba(0, 0, 0, .043), 0 11px 4.4px rgba(0, 0, 0, .043), 0 17px 6.5px rgba(0, 0, 0, .047), 0 25px 9.5px rgba(0, 0, 0, .047), 0 36px 13.8px rgba(0, 0, 0, .047), 0 53px 20.1px rgba(0, 0, 0, .047), 0 78px 29.9px rgba(0, 0, 0, .05), 0 120px 46px rgba(0, 0, 0, .055), 0 203px 77.7px rgba(0, 0, 0, .055);
+	z-index: -1;
+}
+
+.phone-aspect-ratio {
+	aspect-ratio: 0.49/1;
+}
+
+.phone-mockup-content-heading {
+	grid-area: span 1 / span 4 / span 1 / span 4;
+}
+
+.phone-mockup-content-text {
+	grid-area: 1 / 10 / 2 / 13;
+}
+
+.phone-mockup-img-inner {
+	position: absolute;
+	top: .5rem;
+	bottom: .5rem;
+	min-width: min-content;
+	width: max-content;
+	max-height: 85vh;
+	aspect-ratio: 0.49/1;
+	padding: 1rem 1.3rem 1rem 1.5rem;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+	.phone-mockup-img-inner {
+		border-radius: 4rem;
+	}
+}
+
+@supports (mask-image: url(../../assets/phoneMask.svg)) or (-webkit-mask-image: url(../../assets/phoneMask.svg)) {
+	.phone-mockup-img-inner {
+		top: unset;
+		bottom: unset;
+		height: 100%;
+		border-radius: 0 !important;
+
+		-webkit-mask-image: url(../../assets/phoneMask.svg);
+		-webkit-mask-size: cover;
+		-webkit-mask-repeat: no-repeat;
+		-webkit-mask-position: center;
+		mask-image: url(../../assets/phoneMask.svg);
+		mask-size: cover;
+		mask-repeat: no-repeat;
+		mask-position: center;
+	}
+}

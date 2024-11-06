@@ -1,0 +1,202 @@
+.sticker-el {
+	position: absolute;
+}
+
+.sticker-el._01 {
+	top: 7%;
+	left: 22%;
+}
+
+.sticker-el._02 {
+	top: 40%;
+	left: -5%;
+}
+
+.sticker-el._03 {
+	bottom: -2%;
+	left: 6%;
+}
+
+.sticker-el._04 {
+	top: 5%;
+	right: 22%;
+}
+
+.sticker-el._05 {
+	top: 16%;
+	right: 2%;
+}
+
+.sticker-el._06 {
+	top: 36%;
+	right: 2%;
+}
+
+.sticker-el._07 {
+	bottom: 0%;
+	right: 12%;
+}
+
+.sticker-el._07 {
+	bottom: 0%;
+	right: 12%;
+}
+
+.sticker-el._08 {
+	bottom: 29%;
+	right: 71%;
+}
+
+.sticker-el._09 {
+	bottom: 42%;
+	right: 12%;
+}
+
+._01 .sticker-img {
+	width: 10rem;
+}
+
+._02 .sticker-img {
+	width: 13rem;
+}
+
+._03 .sticker-img {
+	width: 20rem;
+}
+
+._04 .sticker-img {
+	width: 10rem;
+}
+
+._05 .sticker-img {
+	width: 6rem;
+}
+
+._06 .sticker-img {
+	width: 10rem;
+}
+
+._07 .sticker-img {
+	width: 13rem;
+}
+
+._08 .sticker-img {
+	width: 10rem;
+}
+
+._09 .sticker-img {
+	width: 17.5rem;
+}
+
+@media screen and (max-width: 991px) {
+	.sticker-el._01 {
+		left: -6%;
+	}
+
+	.sticker-el._03 {
+		left: 0%;
+	}
+
+	.sticker-el._04 {
+		top: -3%;
+		right: 33%;
+	}
+
+	.sticker-el._05 {
+		top: 25%;
+	}
+
+	.sticker-el._06 {
+		top: 49%;
+		right: -1%;
+	}
+
+	.sticker-el._07 {
+		right: 5%;
+	}
+
+	._01 .sticker-img {
+		width: 15vw;
+	}
+
+	._02 .sticker-img {
+		width: 17vw;
+	}
+
+	._03 .sticker-img {
+		width: 25vw;
+	}
+
+	._04 .sticker-img {
+		width: 15vw;
+	}
+
+	._05 .sticker-img {
+		width: 12vw;
+	}
+
+	._06 .sticker-img {
+		width: 16vw;
+	}
+
+	._07 .sticker-img {
+		width: 17vw;
+	}
+
+	._08 .sticker-img {
+		display: none;
+	}
+
+	._09 .sticker-img {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.sticker-el._01 {
+		top: 11%;
+		left: 1%;
+	}
+
+	.sticker-el._02 {
+		left: -18%;
+	}
+
+	.sticker-el._03 {
+		display: none;
+	}
+
+	.sticker-el._04 {
+		top: 11%;
+		right: 2%;
+	}
+
+	.sticker-el._05 {
+		display: none;
+	}
+
+	.sticker-el._06 {
+		top: 38%;
+		right: -13%;
+	}
+
+	.sticker-el._07 {
+		display: none;
+	}
+
+	._01 .sticker-img {
+		width: 30vw;
+	}
+
+	._02 .sticker-img {
+		width: 32vw;
+	}
+
+	._04 .sticker-img {
+		width: 25vw;
+	}
+
+	._06 .sticker-img {
+		width: 28vw;
+	}
+}

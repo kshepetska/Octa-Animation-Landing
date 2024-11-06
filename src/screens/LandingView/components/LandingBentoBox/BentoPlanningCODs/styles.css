@@ -1,0 +1,39 @@
+.planning-cods {
+	border-bottom-right-radius: 2.5rem;
+	padding-top: 5%;
+	position: absolute;
+	top: 55%;
+	bottom: 0;
+	left: 2rem;
+	right: 0;
+	overflow: hidden;
+}
+
+.planning-cods-ui {
+	width: 100%;
+	max-width: none;
+	display: block;
+	transition: transform 0.4s;
+}
+
+@media screen and (min-width: 479px) {
+	.bento-card:hover .planning-cods-ui {
+		transform: translate3d(0, -5%, 0);
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.planning-cods {
+		top: 50%;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.planning-cods {
+		top: auto;
+	}
+
+	.planning-cods-ui {
+		width: 120%;
+	}
+}

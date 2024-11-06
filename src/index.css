@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--nav-bg: #FCFAF4;
+	--nav-text: #333333;
+
+	--default-bg: #FCFAF4;
+	--default-text: #333333;
+
+	--page-dialog-bg: #C3B2E7;
+	--page-dialog-text: #52225E;
+}
+
+html {
+	font-size: 14px;
+}
+
+body {
+	background: #111111;
+}
+
+@media screen and (min-width: 768px) {
+	html {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	html {
+		font-size: 0.9vw;
+	}
+}
+
+body {
+	font-size: 1.125rem;
+}
+
+@media screen and (max-width: 767px) {
+	body {
+		font-size: 1rem;
+	}
+}
+
+html.lenis {
+	height: auto;
+}
+
+.lenis.lenis-smooth {
+	scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+	overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+	overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+	pointer-events: none;
+}

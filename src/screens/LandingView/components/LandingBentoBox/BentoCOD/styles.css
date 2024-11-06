@@ -1,0 +1,94 @@
+.cod-card {
+	width: 40%;
+	max-width: none;
+	display: block;
+	position: absolute;
+	box-shadow: 0 0 rgba(0, 0, 0, 0), 0 1px .4px rgba(0, 0, 0, .03), 0 2px .8px rgba(0, 0, 0, .04), 0 3px 1.6px rgba(0, 0, 0, .043), 0 5px 2.9px rgba(0, 0, 0, .047), 0 9px 5.3px rgba(0, 0, 0, .047), 0 15px 10.4px rgba(0, 0, 0, .05), 0 31px 22.8px rgba(0, 0, 0, .055);
+}
+
+.cod-card._01 {
+	z-index: 1;
+	transform-origin: 50% 100%;
+	top: 0%;
+	left: 21%;
+	transform: rotate(-15deg);
+	transition: transform .4s;
+}
+
+.cod-card._02 {
+	z-index: 0;
+	transform-origin: 50% 100%;
+	top: 0%;
+	left: 41%;
+	transform: rotate(1deg);
+	transition: transform .4s;
+}
+
+.cod-ui {
+	z-index: 2;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 1rem;
+	padding-top: .5rem;
+	padding-bottom: 1rem;
+	position: absolute;
+	bottom: 1%;
+	left: -4%;
+	overflow: hidden;
+	box-shadow: 0 0 rgba(0, 0, 0, 0), 0 1px .4px rgba(0, 0, 0, .03), 0 2px .8px rgba(0, 0, 0, .04), 0 3px 1.6px rgba(0, 0, 0, .043), 0 5px 2.9px rgba(0, 0, 0, .047), 0 9px 5.3px rgba(0, 0, 0, .047), 0 15px 10.4px rgba(0, 0, 0, .05), 0 31px 22.8px rgba(0, 0, 0, .055);
+}
+
+.cod-ui-img {
+	width: 140%;
+	max-width: none;
+	transition: transform .4s;
+}
+
+.cod-ui-overlay {
+	width: 20%;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 33%, #fff);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+@media screen and (min-width: 479px) {
+	.bento-card:hover .cod-card._01 {
+		transform: rotate(-21deg);
+	}
+
+	.bento-card:hover .cod-card._02 {
+		transform: rotate(10deg);
+	}
+
+	.bento-card:hover .cod-ui-img {
+		transform: translate3d(-30%, 0, 0);
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.bento-card-details.customization {
+		height: 60%;
+		top: auto;
+		bottom: 2rem;
+	}
+
+	.cod-card._01 {
+		width: 40%;
+		top: 5%;
+		left: 22%;
+	}
+
+	.cod-card._02 {
+		width: 40%;
+		top: 6%;
+		left: 46%;
+	}
+
+	.cod-ui {
+		width: 90%;
+		bottom: 0%;
+		left: 5%;
+	}
+}

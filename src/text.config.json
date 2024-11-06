@@ -1,0 +1,70 @@
+{
+  "mainHeading": "Empower Your Economy <br /> Simple & Transparent <br /> store of value",
+  "headerAction": "Start Gifting",
+  "phone": [
+    {
+      "name": "Create",
+      "heading": "We make gifting and celebrating better",
+      "text": "So you can show up for every meaningful occasion, milestone, and moment.",
+      "bgColor": "#b8cedc",
+      "textColor": "#184363"
+    },
+    {
+      "name": "Trade",
+      "heading": "Lorem ipsum dolor, sit amet consectetur adipisicing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.",
+      "bgColor": "#c9da8f",
+      "textColor": "#1C471F"
+    },
+    {
+      "name": "Monitor",
+      "heading": "Lorem ipsum dolor, sit amet consectetur adipisicing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.",
+      "bgColor": "#fedf6f",
+      "textColor": "#4A411E"
+    }
+  ],
+  "bentoBox": {
+    "heading": "Explore endless possibilities.",
+    "content": {
+      "COD": "Use a pre-designed template or personalize with video, stickers, fonts, and more",
+      "Market Place 2ndary market": "Schedule all your cards and gifts now and we’ll send them later",
+      "Wallet": "Access all your gifts and save up your Givingli Cash",
+      "Creation": "Track your gifts, group chats, and sent cards",
+      "Tokenomics?": "Never miss a birthday or special occasion again",
+      "Planning out CODs": "Send as a group with friends or individually"
+    }
+  },
+  "mintPage": {
+    "mintButton": "Mint",
+    "connectWallet": "Connect Wallet",
+    "disconnectWallet": "Disconnect Wallet",
+    "congrats": "Congratulations!",
+    "mintMore": "Mint More",
+    "viewInDApp": {
+      "text": "View in dApp",
+      "href": "https://"
+    }
+  },
+  "footer": {
+    "general": {
+      "heading": "Every moment matters.",
+      "rights": "All Rights Reserved"
+    },
+    "support": {
+      "heading": "Support",
+      "p1": "Have questions? <a href=\"http://\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"footer-link\">Get in touch</a> or check out our <a href=\"http://\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"footer-link\">Help Center</a>.",
+      "p2": "You can also text our support team at <a href=\"tel:+\" class=\"footer-link\">(310) 773-5384</a> or email us at <a href=\"mailto:help@givingli.com\" class=\"footer-link\">help@givingli.com</a>"
+    },
+    "terms": {
+      "Terms of use": "https://",
+      "Privacy Policy": "https://"
+    },
+    "socials": {
+      "heading": "Social",
+      "instagram": "https://instagram.com/",
+      "facebook": "https://facebook.com/",
+      "x": "https://x.com/"
+    }
+  }
+}

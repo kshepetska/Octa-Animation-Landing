@@ -1,0 +1,24 @@
+.btn-hover {
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-hover::before {
+	content: "";
+	position: absolute;
+	z-index: 0;
+	width: 200%;
+	transform-origin: 50% 100%;
+	background-color: rgba(255, 255, 255, .15);
+	border-radius: 50%;
+	padding-bottom: 200%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transition: all .5s ease-out;
+	transform: translate(-50%, -50%) scale(0);
+}
+
+.btn-hover:not(:disabled):hover::before {
+	transform: translate(-50%, -50%) scale(1);
+}
